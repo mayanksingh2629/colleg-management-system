@@ -60,8 +60,8 @@ Inserting the data
 --Inserting the data in Student table
 
 Insert into students (StudentID, Name, Email,DOB) 
-values (1,'Kajal Patel', 'kajal4344@gmail.com','2002-07-20'),
-(2,'Naved Ahmad','naved2345@gmail.com','2000-08-23');
+values (1,'mayank', 'mayank4344@gmail.com','2002-07-20'),
+(2,'shivansh','shivansh345@gmail.com','2000-08-23');
 
 --Inserting the data in Courses table
 
@@ -79,7 +79,7 @@ values(2001,1,202,'2025-06-23'),
 Updating the data
 
 ```
-Update students set name ='Naved Mansoori' where StudentID = 2;
+Update students set name ='Mayank' where StudentID = 2;
 ```
 
 Deleting the data
